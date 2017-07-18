@@ -1,0 +1,9 @@
+E:\不忘初心\XllCake\Cake.BLL\bin\Release\Cake.BLL.dll
+E:\不忘初心\XllCake\Cake.BLL\bin\Release\Cake.BLL.pdb
+E:\不忘初心\XllCake\Cake.BLL\bin\Release\Cake.DAL.dll
+E:\不忘初心\XllCake\Cake.BLL\bin\Release\Cake.Model.dll
+E:\不忘初心\XllCake\Cake.BLL\bin\Release\Cake.DAL.pdb
+E:\不忘初心\XllCake\Cake.BLL\bin\Release\Cake.Model.pdb
+E:\不忘初心\XllCake\Cake.BLL\obj\Release\Cake.BLL.csprojResolveAssemblyReference.cache
+E:\不忘初心\XllCake\Cake.BLL\obj\Release\Cake.BLL.dll
+E:\不忘初心\XllCake\Cake.BLL\obj\Release\Cake.BLL.pdb

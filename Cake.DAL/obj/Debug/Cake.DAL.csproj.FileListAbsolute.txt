@@ -1,0 +1,14 @@
+E:\不忘初心\XllCake\Cake.DAL\bin\Debug\Cake.DAL.dll
+E:\不忘初心\XllCake\Cake.DAL\bin\Debug\Cake.DAL.pdb
+E:\不忘初心\XllCake\Cake.DAL\bin\Debug\Cake.Model.dll
+E:\不忘初心\XllCake\Cake.DAL\bin\Debug\Cake.Model.pdb
+E:\不忘初心\XllCake\Cake.DAL\obj\Debug\Cake.DAL.csprojResolveAssemblyReference.cache
+E:\不忘初心\XllCake\Cake.DAL\obj\Debug\Cake.DAL.dll
+E:\不忘初心\XllCake\Cake.DAL\obj\Debug\Cake.DAL.pdb
+E:\不忘初心\XllCake\src\Cake.DAL\bin\Debug\Cake.DAL.dll
+E:\不忘初心\XllCake\src\Cake.DAL\bin\Debug\Cake.DAL.pdb
+E:\不忘初心\XllCake\src\Cake.DAL\bin\Debug\Cake.Model.dll
+E:\不忘初心\XllCake\src\Cake.DAL\bin\Debug\Cake.Model.pdb
+E:\不忘初心\XllCake\src\Cake.DAL\obj\Debug\Cake.DAL.csprojResolveAssemblyReference.cache
+E:\不忘初心\XllCake\src\Cake.DAL\obj\Debug\Cake.DAL.dll
+E:\不忘初心\XllCake\src\Cake.DAL\obj\Debug\Cake.DAL.pdb

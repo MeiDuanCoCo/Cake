@@ -16,3 +16,12 @@ E:\不忘初心\XllCake\src\Cake.BLL\bin\Debug\Cake.Model.pdb
 E:\不忘初心\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.csprojResolveAssemblyReference.cache
 E:\不忘初心\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.dll
 E:\不忘初心\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.pdb
+I:\work\csharp\XllCake\src\Cake.BLL\bin\Debug\Cake.BLL.dll
+I:\work\csharp\XllCake\src\Cake.BLL\bin\Debug\Cake.BLL.pdb
+I:\work\csharp\XllCake\src\Cake.BLL\bin\Debug\Cake.DAL.dll
+I:\work\csharp\XllCake\src\Cake.BLL\bin\Debug\Cake.Model.dll
+I:\work\csharp\XllCake\src\Cake.BLL\bin\Debug\Cake.DAL.pdb
+I:\work\csharp\XllCake\src\Cake.BLL\bin\Debug\Cake.Model.pdb
+I:\work\csharp\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.csprojResolveAssemblyReference.cache
+I:\work\csharp\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.dll
+I:\work\csharp\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.pdb

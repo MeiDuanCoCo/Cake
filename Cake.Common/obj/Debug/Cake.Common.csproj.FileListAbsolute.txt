@@ -12,3 +12,10 @@ E:\不忘初心\XllCake\src\Cake.Common\bin\Debug\Cake.Model.pdb
 E:\不忘初心\XllCake\src\Cake.Common\obj\Debug\Cake.Common.csprojResolveAssemblyReference.cache
 E:\不忘初心\XllCake\src\Cake.Common\obj\Debug\Cake.Common.dll
 E:\不忘初心\XllCake\src\Cake.Common\obj\Debug\Cake.Common.pdb
+I:\work\csharp\XllCake\src\Cake.Common\bin\Debug\Cake.Common.dll
+I:\work\csharp\XllCake\src\Cake.Common\bin\Debug\Cake.Common.pdb
+I:\work\csharp\XllCake\src\Cake.Common\bin\Debug\Cake.Model.dll
+I:\work\csharp\XllCake\src\Cake.Common\bin\Debug\Cake.Model.pdb
+I:\work\csharp\XllCake\src\Cake.Common\obj\Debug\Cake.Common.csprojResolveAssemblyReference.cache
+I:\work\csharp\XllCake\src\Cake.Common\obj\Debug\Cake.Common.dll
+I:\work\csharp\XllCake\src\Cake.Common\obj\Debug\Cake.Common.pdb

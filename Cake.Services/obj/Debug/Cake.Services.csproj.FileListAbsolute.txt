@@ -1,0 +1,11 @@
+I:\work\csharp\XllCake\src\Cake.Services\bin\Debug\Cake.Services.dll
+I:\work\csharp\XllCake\src\Cake.Services\bin\Debug\Cake.Services.pdb
+I:\work\csharp\XllCake\src\Cake.Services\bin\Debug\Autofac.dll
+I:\work\csharp\XllCake\src\Cake.Services\bin\Debug\Cake.Domain.dll
+I:\work\csharp\XllCake\src\Cake.Services\bin\Debug\EntityFramework.dll
+I:\work\csharp\XllCake\src\Cake.Services\bin\Debug\Cake.Domain.pdb
+I:\work\csharp\XllCake\src\Cake.Services\bin\Debug\Autofac.xml
+I:\work\csharp\XllCake\src\Cake.Services\bin\Debug\EntityFramework.xml
+I:\work\csharp\XllCake\src\Cake.Services\obj\Debug\Cake.Services.csprojResolveAssemblyReference.cache
+I:\work\csharp\XllCake\src\Cake.Services\obj\Debug\Cake.Services.dll
+I:\work\csharp\XllCake\src\Cake.Services\obj\Debug\Cake.Services.pdb

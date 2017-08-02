@@ -19,3 +19,10 @@ I:\work\csharp\XllCake\src\Cake.DAL\bin\Debug\Cake.Model.pdb
 I:\work\csharp\XllCake\src\Cake.DAL\obj\Debug\Cake.DAL.csprojResolveAssemblyReference.cache
 I:\work\csharp\XllCake\src\Cake.DAL\obj\Debug\Cake.DAL.dll
 I:\work\csharp\XllCake\src\Cake.DAL\obj\Debug\Cake.DAL.pdb
+E:\XllCake\src\Cake.DAL\bin\Debug\Cake.DAL.dll
+E:\XllCake\src\Cake.DAL\bin\Debug\Cake.DAL.pdb
+E:\XllCake\src\Cake.DAL\bin\Debug\Cake.Model.dll
+E:\XllCake\src\Cake.DAL\bin\Debug\Cake.Model.pdb
+E:\XllCake\src\Cake.DAL\obj\Debug\Cake.DAL.csprojResolveAssemblyReference.cache
+E:\XllCake\src\Cake.DAL\obj\Debug\Cake.DAL.dll
+E:\XllCake\src\Cake.DAL\obj\Debug\Cake.DAL.pdb

@@ -19,3 +19,10 @@ I:\work\csharp\XllCake\src\Cake.Common\bin\Debug\Cake.Model.pdb
 I:\work\csharp\XllCake\src\Cake.Common\obj\Debug\Cake.Common.csprojResolveAssemblyReference.cache
 I:\work\csharp\XllCake\src\Cake.Common\obj\Debug\Cake.Common.dll
 I:\work\csharp\XllCake\src\Cake.Common\obj\Debug\Cake.Common.pdb
+E:\XllCake\src\Cake.Common\bin\Debug\Cake.Common.dll
+E:\XllCake\src\Cake.Common\bin\Debug\Cake.Common.pdb
+E:\XllCake\src\Cake.Common\bin\Debug\Cake.Model.dll
+E:\XllCake\src\Cake.Common\bin\Debug\Cake.Model.pdb
+E:\XllCake\src\Cake.Common\obj\Debug\Cake.Common.csprojResolveAssemblyReference.cache
+E:\XllCake\src\Cake.Common\obj\Debug\Cake.Common.dll
+E:\XllCake\src\Cake.Common\obj\Debug\Cake.Common.pdb

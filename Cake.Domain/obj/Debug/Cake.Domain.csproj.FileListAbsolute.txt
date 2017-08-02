@@ -8,3 +8,13 @@ I:\work\csharp\XllCake\src\Cake.Domain\bin\Debug\EntityFramework.SqlServer.xml
 I:\work\csharp\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.csprojResolveAssemblyReference.cache
 I:\work\csharp\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.dll
 I:\work\csharp\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.pdb
+E:\XllCake\src\Cake.Domain\bin\Debug\Cake.Domain.dll.config
+E:\XllCake\src\Cake.Domain\bin\Debug\Cake.Domain.dll
+E:\XllCake\src\Cake.Domain\bin\Debug\Cake.Domain.pdb
+E:\XllCake\src\Cake.Domain\bin\Debug\EntityFramework.dll
+E:\XllCake\src\Cake.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\XllCake\src\Cake.Domain\bin\Debug\EntityFramework.xml
+E:\XllCake\src\Cake.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.csprojResolveAssemblyReference.cache
+E:\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.dll
+E:\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.pdb

@@ -25,3 +25,12 @@ I:\work\csharp\XllCake\src\Cake.BLL\bin\Debug\Cake.Model.pdb
 I:\work\csharp\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.csprojResolveAssemblyReference.cache
 I:\work\csharp\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.dll
 I:\work\csharp\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.pdb
+E:\XllCake\src\Cake.BLL\bin\Debug\Cake.BLL.dll
+E:\XllCake\src\Cake.BLL\bin\Debug\Cake.BLL.pdb
+E:\XllCake\src\Cake.BLL\bin\Debug\Cake.DAL.dll
+E:\XllCake\src\Cake.BLL\bin\Debug\Cake.Model.dll
+E:\XllCake\src\Cake.BLL\bin\Debug\Cake.DAL.pdb
+E:\XllCake\src\Cake.BLL\bin\Debug\Cake.Model.pdb
+E:\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.csprojResolveAssemblyReference.cache
+E:\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.dll
+E:\XllCake\src\Cake.BLL\obj\Debug\Cake.BLL.pdb

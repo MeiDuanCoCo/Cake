@@ -6,7 +6,7 @@ namespace Cake.Domain
     public class BaseObject
     {
         /// <summary>
-        ///     自增ID
+        ///     自增Id
         /// </summary>
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

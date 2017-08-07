@@ -1,6 +1,5 @@
-﻿using Cake.Domain.Link;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
+using Cake.Domain.Link;
 
 namespace Cake.Services.Link
 {

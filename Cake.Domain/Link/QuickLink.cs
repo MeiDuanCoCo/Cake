@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Cake.Domain.Link
 {
     /// <summary>
-    ///     快捷链接
+    /// 快捷链接表
     /// </summary>
     public class QuickLink : BaseObject
     {

@@ -1,30 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cake.Domain.Cake
 {
     /// <summary>
-    /// 蛋糕
+    ///     蛋糕表
     /// </summary>
     public class Cake : BaseObject
     {
         /// <summary>
-        /// 蛋糕名称
+        ///     蛋糕名称
         /// </summary>
         [StringLength(128)]
         public string CakeName { get; set; }
 
         /// <summary>
-        /// 蛋糕类型
+        ///     蛋糕类型表Id
         /// </summary>
-        public Type CakeType { get; set; }
+        public long CakettypeId { get; set; }
+
         /// <summary>
-        /// 关系类型
+        ///     蛋糕应用场景表Id
         /// </summary>
-        public Type RelationType { get; set; }
+        public long ScenarioId { get; set; }
     }
 }

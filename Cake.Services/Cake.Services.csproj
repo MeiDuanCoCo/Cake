@@ -55,6 +55,8 @@
     <Compile Include="AutofacConfig.cs" />
     <Compile Include="AutofacFactory.cs" />
     <Compile Include="BaseService.cs" />
+    <Compile Include="Cake\CakeService.cs" />
+    <Compile Include="Cake\ICakeService.cs" />
     <Compile Include="IocFactory.cs" />
     <Compile Include="Link\IQuickLinkService.cs" />
     <Compile Include="Link\QuickLinkService.cs" />
@@ -70,6 +72,7 @@
       <Name>Cake.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -17,4 +17,3 @@ E:\XllCake\src\Cake.Domain\bin\Debug\EntityFramework.xml
 E:\XllCake\src\Cake.Domain\bin\Debug\EntityFramework.SqlServer.xml
 E:\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.dll
 E:\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.pdb
-E:\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.csprojResolveAssemblyReference.cache

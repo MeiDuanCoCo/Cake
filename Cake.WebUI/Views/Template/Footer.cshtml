@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+}
+
+@model IList<Cake.Domain.Link.QuickLink>
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="footer-grids">
+            @foreach (var link in Model)
+            {
+                <div class="col-md-@ViewData["cols"] footer-grid icons">
+                    <h4>@link.Name</h4>
+                    <ul>
+                        @foreach (var item in link.QuickLinkItems)
+                        {
+                            <li>
+                                <a href="@item.Url">@item.Name</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            }
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

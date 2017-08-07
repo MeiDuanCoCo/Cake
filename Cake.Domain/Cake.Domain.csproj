@@ -49,7 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CakeContext.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="BaseObject.cs" />
+    <Compile Include="Cake\Cake.cs" />
+    <Compile Include="Cake\CakeItem.cs" />
+    <Compile Include="Link\QuickLink.cs" />
+    <Compile Include="Link\QuickLinkItem.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

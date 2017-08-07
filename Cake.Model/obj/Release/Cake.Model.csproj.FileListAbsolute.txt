@@ -1,5 +1,0 @@
-E:\不忘初心\XllCake\Cake.Model\bin\Release\Cake.Model.dll
-E:\不忘初心\XllCake\Cake.Model\bin\Release\Cake.Model.pdb
-E:\不忘初心\XllCake\Cake.Model\obj\Release\Cake.Model.csprojResolveAssemblyReference.cache
-E:\不忘初心\XllCake\Cake.Model\obj\Release\Cake.Model.dll
-E:\不忘初心\XllCake\Cake.Model\obj\Release\Cake.Model.pdb

@@ -1,7 +1,0 @@
-E:\不忘初心\XllCake\Cake.DAL\bin\Release\Cake.DAL.dll
-E:\不忘初心\XllCake\Cake.DAL\bin\Release\Cake.DAL.pdb
-E:\不忘初心\XllCake\Cake.DAL\bin\Release\Cake.Model.dll
-E:\不忘初心\XllCake\Cake.DAL\bin\Release\Cake.Model.pdb
-E:\不忘初心\XllCake\Cake.DAL\obj\Release\Cake.DAL.csprojResolveAssemblyReference.cache
-E:\不忘初心\XllCake\Cake.DAL\obj\Release\Cake.DAL.dll
-E:\不忘初心\XllCake\Cake.DAL\obj\Release\Cake.DAL.pdb

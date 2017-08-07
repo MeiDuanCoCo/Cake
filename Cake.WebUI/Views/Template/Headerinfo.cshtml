@@ -1,0 +1,64 @@
+﻿@{
+    Layout = null;
+}
+
+<div class="header-info">
+    <div class="header-right search-box">
+        <a href="#">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </a>
+        <div class="search">
+            <form class="navbar-form">
+                <input type="text" class="form-control">
+                <button type="submit" class="btn btn-default" aria-label="Left Align">
+                    搜索
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="header-right login">
+        <a href="#">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </a>
+        <div id="loginBox">
+            <form id="loginForm">
+                <fieldset id="body">
+                    <fieldset>
+                        <label for="email">电子邮件地址</label>
+                        <input type="text" name="email" id="email">
+                    </fieldset>
+                    <fieldset>
+                        <label for="password">密码</label>
+                        <input type="password" name="password" id="password">
+                    </fieldset>
+                    <input type="submit" id="login" value="登录">
+                    <label for="checkbox">
+                        <input type="checkbox" id="checkbox"> <i>记住我</i>
+                    </label>
+                </fieldset>
+                <p>
+                    新用户? <a class="sign" href="account.html">注册</a> <span>
+                        <a href="#">忘记密码了吗?</a>
+                    </span>
+                </p>
+            </form>
+        </div>
+    </div>
+    <div class="header-right cart">
+        <a href="#">
+            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+        </a>
+        <div class="cart-box">
+            <h4>
+                <a href="checkout.html">
+                    <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)
+                </a>
+            </h4>
+            <p>
+                <a href="javascript:;" class="simpleCart_empty">空购物车</a>
+            </p>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <div class="clearfix"> </div>
+</div>

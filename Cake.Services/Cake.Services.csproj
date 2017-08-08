@@ -71,8 +71,11 @@
       <Project>{c14d87ad-a544-486d-bd10-826e5f9cfbdd}</Project>
       <Name>Cake.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Cake.Dto\Cake.Dto.csproj">
+      <Project>{90b6abf9-a9d8-4ee8-b405-b9bfde3dc4a1}</Project>
+      <Name>Cake.Dto</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

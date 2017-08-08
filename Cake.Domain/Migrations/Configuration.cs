@@ -1,4 +1,5 @@
 using System.Data.Entity.Migrations;
+using Cake.Domain.Cake;
 using Cake.Domain.Link;
 
 namespace Cake.Domain.Migrations
@@ -207,6 +208,67 @@ namespace Cake.Domain.Migrations
                     Name = "在Github上关注我们",
                     Url = "/",
                     QuickLinkId = 5
+                });
+
+            context.Scenarios.AddOrUpdate(o => o.Id, new Scenario
+                {
+                    Id = 1,
+                    ScenarioName = "生日"
+                },
+                new Scenario
+                {
+                    Id = 2,
+                    ScenarioName = "婚礼"
+                },
+                new Scenario
+                {
+                    Id = 3,
+                    ScenarioName = "特别优惠"
+                },
+                new Scenario
+                {
+                    Id = 4,
+                    ScenarioName = "商店"
+                });
+
+            context.CakeTypes.AddOrUpdate(o => o.Id, new CakeType
+                {
+                    Id = 1,
+                    Name = "按关系",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Title,
+                    ParentId = 0
+                },
+                new CakeType
+                {
+                    Id = 2,
+                    Name = "根据风味",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Title,
+                    ParentId = 0
+                },
+                new CakeType
+                {
+                    Id = 3,
+                    Name = "朋友",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 1
+                });
+
+            context.Cakes.AddOrUpdate(o => o.Id, new Cake.Cake
+                {
+                    Id = 1,
+                    CakeName = "巧克力",
+                    CaketypeId = 1,
+                    ScenarioId = 1
+                },
+                new Cake.Cake
+                {
+                    Id = 2,
+                    CakeName = "草莓",
+                    CaketypeId = 2,
+                    ScenarioId = 2
                 });
         }
     }

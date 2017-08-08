@@ -1,10 +1,12 @@
-﻿using System.Linq;
-using Cake.Domain.Cake;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Cake.Dto.Cake;
 
 namespace Cake.Services.Cake
 {
     public interface ICakeService
     {
-        IQueryable<Domain.Cake.Cake> GetCakes(CakeQuery cakeQuery);
+        IQueryable<CakeDto> GetCakes(CakeQuery cakeQuery);
+        IList<ScenarioDto> GetScenarios();
     }
 }

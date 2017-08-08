@@ -11,11 +11,25 @@ namespace Cake.Domain.Cake
         ///     蛋糕类别名称
         /// </summary>
         [StringLength(128)]
-        public string CaketypeName { get; set; }
+        public string Name { get; set; }
 
         /// <summary>
-        ///     蛋糕类型
+        /// 链接地址
         /// </summary>
-        public CakeCategory CakeCategory { get; set; }
+        [StringLength(256)]
+        [DataType(DataType.Url)]
+        public string Url { get; set; }
+
+        /// <summary>
+        /// 类型枚举 1-标题  
+        /// </summary>
+        public CakeTypeEnum CakeTypeEnum { get; set; }
+
+        public long ParentId { get; set; }
+
+        ///// <summary>
+        /////     蛋糕类型
+        ///// </summary>
+        //public CakeCategory CakeCategory { get; set; }
     }
 }

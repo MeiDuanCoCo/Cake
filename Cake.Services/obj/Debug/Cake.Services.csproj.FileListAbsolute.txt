@@ -14,9 +14,11 @@ E:\XllCake\src\Cake.Services\bin\Debug\Cake.Services.dll
 E:\XllCake\src\Cake.Services\bin\Debug\Cake.Services.pdb
 E:\XllCake\src\Cake.Services\bin\Debug\Autofac.dll
 E:\XllCake\src\Cake.Services\bin\Debug\Cake.Domain.dll
+E:\XllCake\src\Cake.Services\bin\Debug\Cake.Dto.dll
 E:\XllCake\src\Cake.Services\bin\Debug\EntityFramework.dll
 E:\XllCake\src\Cake.Services\bin\Debug\EntityFramework.SqlServer.dll
 E:\XllCake\src\Cake.Services\bin\Debug\Cake.Domain.pdb
+E:\XllCake\src\Cake.Services\bin\Debug\Cake.Dto.pdb
 E:\XllCake\src\Cake.Services\bin\Debug\Autofac.xml
 E:\XllCake\src\Cake.Services\bin\Debug\EntityFramework.xml
 E:\XllCake\src\Cake.Services\bin\Debug\EntityFramework.SqlServer.xml

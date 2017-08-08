@@ -50,12 +50,11 @@
   <ItemGroup>
     <Compile Include="CakeContext.cs" />
     <Compile Include="BaseObject.cs" />
-    <Compile Include="Cake\CakeQuery.cs" />
     <Compile Include="Cake\Cake.cs" />
     <Compile Include="Cake\CakeCategory.cs" />
     <Compile Include="Cake\CakeType.cs" />
+    <Compile Include="Cake\CakeTypeEnum.cs" />
     <Compile Include="Cake\Scenario.cs" />
-    <Compile Include="PageQuery.cs" />
     <Compile Include="Link\QuickLink.cs" />
     <Compile Include="Link\QuickLinkItem.cs" />
     <Compile Include="Migrations\Configuration.cs" />

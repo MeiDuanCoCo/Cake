@@ -17,7 +17,7 @@ namespace Cake.Domain.Cake
         /// <summary>
         ///     蛋糕类型表Id
         /// </summary>
-        public long CakettypeId { get; set; }
+        public long CaketypeId { get; set; }
 
         /// <summary>
         ///     蛋糕应用场景表Id

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDD分层", "DDD分层", "{4A5D1CF1-60B1-484B-A252-3D52E694B55C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Domain", "Cake.Domain\Cake.Domain.csproj", "{C14D87AD-A544-486D-BD10-826E5F9CFBDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Services", "Cake.Services\Cake.Services.csproj", "{22127F49-F6C5-4C31-9511-DF4B780829D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Domain", "Cake.Domain\Cake.Domain.csproj", "{C14D87AD-A544-486D-BD10-826E5F9CFBDD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.WebUI", "Cake.WebUI\Cake.WebUI.csproj", "{B133A743-1AF2-4544-9C3E-6BD24FAB5355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Dto", "Cake.Dto\Cake.Dto.csproj", "{90B6ABF9-A9D8-4EE8-B405-B9BFDE3DC4A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,25 +17,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{22127F49-F6C5-4C31-9511-DF4B780829D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22127F49-F6C5-4C31-9511-DF4B780829D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22127F49-F6C5-4C31-9511-DF4B780829D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22127F49-F6C5-4C31-9511-DF4B780829D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C14D87AD-A544-486D-BD10-826E5F9CFBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C14D87AD-A544-486D-BD10-826E5F9CFBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C14D87AD-A544-486D-BD10-826E5F9CFBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C14D87AD-A544-486D-BD10-826E5F9CFBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22127F49-F6C5-4C31-9511-DF4B780829D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22127F49-F6C5-4C31-9511-DF4B780829D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22127F49-F6C5-4C31-9511-DF4B780829D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22127F49-F6C5-4C31-9511-DF4B780829D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B133A743-1AF2-4544-9C3E-6BD24FAB5355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B133A743-1AF2-4544-9C3E-6BD24FAB5355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B133A743-1AF2-4544-9C3E-6BD24FAB5355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B133A743-1AF2-4544-9C3E-6BD24FAB5355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B6ABF9-A9D8-4EE8-B405-B9BFDE3DC4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B6ABF9-A9D8-4EE8-B405-B9BFDE3DC4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B6ABF9-A9D8-4EE8-B405-B9BFDE3DC4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B6ABF9-A9D8-4EE8-B405-B9BFDE3DC4A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{22127F49-F6C5-4C31-9511-DF4B780829D6} = {4A5D1CF1-60B1-484B-A252-3D52E694B55C}
-		{C14D87AD-A544-486D-BD10-826E5F9CFBDD} = {4A5D1CF1-60B1-484B-A252-3D52E694B55C}
-		{B133A743-1AF2-4544-9C3E-6BD24FAB5355} = {4A5D1CF1-60B1-484B-A252-3D52E694B55C}
 	EndGlobalSection
 EndGlobal

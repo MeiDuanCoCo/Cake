@@ -1,4 +1,5 @@
-﻿using Cake.Services.Link;
+﻿using Cake.Services.Cake;
+using Cake.Services.Link;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,16 +12,20 @@ namespace Cake.WebUI.Controllers
     public class TemplateController : Controller
     {
         private readonly IQuickLinkService _linkService;
+        private readonly ICakeService _cakeService;
 
-        public TemplateController(IQuickLinkService linkService)
+        public TemplateController(IQuickLinkService linkService, ICakeService cakeService)
         {
             _linkService = linkService;
+            _cakeService = cakeService;
         }
 
         [Route("navbar")]
         public ActionResult Navbar()
         {
-            return View();
+            var cakes = _cakeService.GetScenarios().ToList();
+            ViewData["num"] = cakes.Count == 0 ? 12 : 12 / cakes.Count;
+            return View(cakes);
         }
         [Route("headerinfo")]
         public ActionResult Headerinfo()

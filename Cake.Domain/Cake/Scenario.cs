@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Cake.Domain.Cake
 {
@@ -12,5 +13,7 @@ namespace Cake.Domain.Cake
         /// </summary>
         [StringLength(128)]
         public string ScenarioName { get; set; }
+
+        public virtual List<CakeType> CakeTypes { get; set; }
     }
 }

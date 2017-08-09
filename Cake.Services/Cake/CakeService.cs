@@ -30,13 +30,10 @@ namespace Cake.Services.Cake
 
         public IList<ScenarioDto> GetScenarios()
         {
-            var types = _dbContext.CakeTypes.ToList();
             var scenarios = _dbContext.Scenarios.AsEnumerable().Select(o => new ScenarioDto(o)).ToList();
             foreach (var scenario in scenarios)
             {
-                scenario.CakeTitles = types.Where(o => o.CakeTypeEnum == CakeTypeEnum.Title)
-                    .Select(o => new CakeTypeDto(o)).ToList();
-                scenario.CakeTypes = types.Where(o => o.CakeTypeEnum == CakeTypeEnum.Content)
+                scenario.TypeDtos = _dbContext.CakeTypes.AsEnumerable()
                     .Select(o => new CakeTypeDto(o)).ToList();
             }
             return scenarios;

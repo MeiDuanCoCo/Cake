@@ -242,7 +242,7 @@ namespace Cake.Domain.Migrations
                 new CakeType
                 {
                     Id = 2,
-                    Name = "¸ù¾İ·çÎ¶",
+                    Name = "Í¨¹ı·çÎ¶",
                     Url = "/",
                     CakeTypeEnum = CakeTypeEnum.Title,
                     ParentId = 0
@@ -250,10 +250,266 @@ namespace Cake.Domain.Migrations
                 new CakeType
                 {
                     Id = 3,
+                    Name = "°´Ö÷Ìâ",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Title,
+                    ParentId = 0
+                },
+                new CakeType
+                {
+                    Id = 4,
+                    Name = "ÖØÁ¿",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Title,
+                    ParentId = 0
+                },
+                new CakeType
+                {
+                    Id = 5,
+                    Name = "ÌØ¼Û",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Title,
+                    ParentId = 0
+                },
+                new CakeType
+                {
+                    Id = 6,
                     Name = "ÅóÓÑ",
                     Url = "/",
                     CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 1
+                },
+                new CakeType
+                {
+                    Id = 7,
+                    Name = "ÇéÈË",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 1
+                },
+                new CakeType
+                {
+                    Id = 8,
+                    Name = "ÃÃÃÃ",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 1
+                },
+                new CakeType
+                {
+                    Id = 9,
+                    Name = "¸ç¸ç",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 1
+                },
+                new CakeType
+                {
+                    Id = 10,
+                    Name = "Ğ¡º¢",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 1
+                },
+                new CakeType
+                {
+                    Id = 11,
+                    Name = "¸¸Ä¸",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 1
+                },
+                new CakeType
+                {
+                    Id = 12,
+                    Name = "ÇÉ¿ËÁ¦",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 2
+                },
+                new CakeType
+                {
+                    Id = 13,
+                    Name = "»ìºÏË®¹û",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 2
+                },
+                new CakeType
+                {
+                    Id = 14,
+                    Name = "ÄÌÓÍ",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 2
+                },
+                new CakeType
+                {
+                    Id = 15,
+                    Name = "²İİ®",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 2
+                },
+                new CakeType
+                {
+                    Id = 16,
+                    Name = "Ïã²İ",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 2
+                },
+                new CakeType
+                {
+                    Id = 17,
+                    Name = "ÎŞµ°¸â",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 2
+                },
+                new CakeType
+                {
+                    Id = 18,
+                    Name = "ĞÄĞÎ",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 3
+                },
+                new CakeType
+                {
+                    Id = 19,
+                    Name = "¿¨Í¨µ°¸â",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 3
+                },
+                new CakeType
+                {
+                    Id = 20,
+                    Name = "2-3²ãµ°¸â",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 3
+                },
+                new CakeType
+                {
+                    Id = 21,
+                    Name = "Õı·½ĞÎ",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 3
+                },
+                new CakeType
+                {
+                    Id = 22,
+                    Name = "Ô²ĞÎ",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 3
+                },
+                new CakeType
+                {
+                    Id = 23,
+                    Name = "ÕÕÆ¬µ°¸â",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 3
+                },
+                new CakeType
+                {
+                    Id = 24,
+                    Name = "1KG",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 4
+                },
+                new CakeType
+                {
+                    Id = 25,
+                    Name = "1.5KG",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 4
+                },
+                new CakeType
+                {
+                    Id = 24,
+                    Name = "2KG",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 4
+                },
+                new CakeType
+                {
+                    Id = 26,
+                    Name = "3KG",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 4
+                },
+                new CakeType
+                {
+                    Id = 27,
+                    Name = "4KG",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 4
+                },
+                new CakeType
+                {
+                    Id = 28,
+                    Name = "¸üÖØ",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 4
+                },
+                new CakeType
+                {
+                    Id = 29,
+                    Name = "±ù¼¤Áèµ°¸â",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 5
+                },
+                new CakeType
+                {
+                    Id = 30,
+                    Name = "ÈğÊ¿¾í",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 5
+                },
+                new CakeType
+                {
+                    Id = 31,
+                    Name = "Ruske¿µÅà",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 5
+                },
+                new CakeType
+                {
+                    Id = 32,
+                    Name = "Ö½±­µ°¸â",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 5
+                },
+                new CakeType
+                {
+                    Id = 33,
+                    Name = "ËÉ±ı",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 5
+                },
+                new CakeType
+                {
+                    Id = 34,
+                    Name = "Merveilleux",
+                    Url = "/",
+                    CakeTypeEnum = CakeTypeEnum.Content,
+                    ParentId = 5
                 });
 
             context.Cakes.AddOrUpdate(o => o.Id, new Cake.Cake

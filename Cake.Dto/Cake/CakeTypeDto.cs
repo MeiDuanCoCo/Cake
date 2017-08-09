@@ -1,5 +1,4 @@
-﻿using Cake.Domain;
-using Cake.Domain.Cake;
+﻿using Cake.Domain.Cake;
 
 namespace Cake.Dto.Cake
 {
@@ -10,9 +9,13 @@ namespace Cake.Dto.Cake
     {
         public CakeTypeDto(CakeType model)
         {
+            Id = model.Id;
             Name = model.Name;
             Url = model.Url;
+            ParentId = model.ParentId;
         }
+
+        public long Id { get; set; }
 
         /// <summary>
         ///     蛋糕类别名称
@@ -23,5 +26,7 @@ namespace Cake.Dto.Cake
         ///     链接地址
         /// </summary>
         public string Url { get; set; }
+
+        public long ParentId { get; set; }
     }
 }

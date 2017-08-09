@@ -14,6 +14,7 @@ namespace Cake.Domain.Cake
         [StringLength(128)]
         public string ScenarioName { get; set; }
 
+
         public virtual List<CakeType> CakeTypes { get; set; }
     }
 }

@@ -13,8 +13,7 @@ namespace Cake.Dto.Cake
         {
             ScenarioName = model.ScenarioName;
 
-            CakeTitles = new List<CakeTypeDto>();
-            CakeTypes = new List<CakeTypeDto>();
+            TypeDtos = new List<CakeTypeDto>();
         }
 
         /// <summary>
@@ -23,13 +22,8 @@ namespace Cake.Dto.Cake
         public string ScenarioName { get; set; }
 
         /// <summary>
-        ///     类别标题
-        /// </summary>
-        public List<CakeTypeDto> CakeTitles { get; set; }
-
-        /// <summary>
         ///     类别
         /// </summary>
-        public List<CakeTypeDto> CakeTypes { get; set; }
+        public List<CakeTypeDto> TypeDtos { get; set; }
     }
 }

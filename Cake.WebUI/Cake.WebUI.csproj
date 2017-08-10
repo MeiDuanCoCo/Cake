@@ -170,6 +170,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="AutofacConfig.cs" />
+    <Compile Include="Controllers\CakeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TemplateController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -294,6 +295,7 @@
     <Content Include="Views\Template\Gallery.cshtml" />
     <Content Include="Views\Template\Banner.cshtml" />
     <Content Include="Views\Template\Headerinfo.cshtml" />
+    <Content Include="Views\Cake\CakeList.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -33,21 +33,7 @@
                         <ul class="dropdown-menu multi-column columns-4">
                             <li>
                                 <div class="row">
-                                    @*@foreach (var title in scen.TypeDtos.Where(t => t.Id.Equals(1)||t.Id.Equals(2)||t.Id.Equals(3)||t.Id.Equals(4)).ToList())
-                                        {
-                                            <div class="col-sm-3">
-                                                <h4>@title.Name</h4>
-                                                <ul class="multi-column-dropdown">
-                                                    @foreach (var con in scen.TypeDtos.Where(t => t.ParentId == title.Id).ToList())
-                                                    {
-                                                        <li>
-                                                            <a class="list" href="@con.Url">@con.Name</a>
-                                                        </li>
-                                                    }
-                                                </ul>
-                                            </div>
-                                        }*@
-
+                                    @*@foreach (var title in scen.TypeDtos.Where(t => t.Id.Equals(1)||t.Id.Equals(2)||t.Id.Equals(3)||t.Id.Equals(4)).ToList())*@
                                     @*@foreach (var title in scen.TypeDtos.Where(t => t.ParentId == 0).OrderBy(o => o.Sort).Take(4).ToList())*@
                                     @foreach (var title in Model.Where(o => o.ParentId == 0 && (o.Scenario & scen) > 0).ToList())
                                     {

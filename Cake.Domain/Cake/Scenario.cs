@@ -1,20 +1,37 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel;
 
 namespace Cake.Domain.Cake
 {
     /// <summary>
-    ///     蛋糕应用场景表
+    ///     蛋糕应用场景
     /// </summary>
-    public class Scenario : BaseObject
+    [Flags]
+    public enum Scenario
     {
         /// <summary>
-        ///     蛋糕应用场景名称
+        ///     不限
         /// </summary>
-        [StringLength(128)]
-        public string ScenarioName { get; set; }
+        [Description("不限")] Unlimited = 0,
 
+        /// <summary>
+        ///     生日
+        /// </summary>
+        [Description("生日")] Birthday = 1,
 
-        public virtual List<CakeType> CakeTypes { get; set; }
+        /// <summary>
+        ///     婚礼
+        /// </summary>
+        [Description("婚礼")] Wedding = 2,
+
+        /// <summary>
+        ///     优惠
+        /// </summary>
+        [Description("优惠")] Concession = 4,
+
+        /// <summary>
+        ///     商店
+        /// </summary>
+        [Description("商店")] Store = 8
     }
 }

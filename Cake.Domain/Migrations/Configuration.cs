@@ -210,73 +210,52 @@ namespace Cake.Domain.Migrations
                     QuickLinkId = 5
                 });
 
-            context.Scenarios.AddOrUpdate(o => o.Id, new Scenario
-                {
-                    Id = 1,
-                    ScenarioName = "生日"
-                },
-                new Scenario
-                {
-                    Id = 2,
-                    ScenarioName = "婚礼"
-                },
-                new Scenario
-                {
-                    Id = 3,
-                    ScenarioName = "特别优惠"
-                },
-                new Scenario
-                {
-                    Id = 4,
-                    ScenarioName = "商店"
-                });
-
+            
             context.CakeTypes.AddOrUpdate(o => o.Id, new CakeType
                 {
                     Id = 1,
                     Name = "按关系",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Title,
-                    ParentId = 0
+                    ParentId = 0,
+                    Scenario = Scenario.Birthday | Scenario.Wedding | Scenario.Concession | Scenario.Store
                 },
                 new CakeType
                 {
                     Id = 2,
                     Name = "通过风味",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Title,
-                    ParentId = 0
+                    ParentId = 0,
+                    Scenario = Scenario.Birthday | Scenario.Wedding | Scenario.Concession | Scenario.Store
                 },
                 new CakeType
                 {
                     Id = 3,
                     Name = "按主题",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Title,
-                    ParentId = 0
+                    ParentId = 0,
+                    Scenario = Scenario.Birthday | Scenario.Wedding | Scenario.Concession
                 },
                 new CakeType
                 {
                     Id = 4,
                     Name = "重量",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Title,
-                    ParentId = 0
+                    ParentId = 0,
+                    Scenario = Scenario.Birthday | Scenario.Wedding | Scenario.Concession
                 },
                 new CakeType
                 {
                     Id = 5,
                     Name = "特价",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Title,
-                    ParentId = 0
+                    ParentId = 0,
+                    Scenario = Scenario.Store
                 },
                 new CakeType
                 {
                     Id = 6,
                     Name = "朋友",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 1
                 },
                 new CakeType
@@ -284,7 +263,6 @@ namespace Cake.Domain.Migrations
                     Id = 7,
                     Name = "情人",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 1
                 },
                 new CakeType
@@ -292,7 +270,6 @@ namespace Cake.Domain.Migrations
                     Id = 8,
                     Name = "妹妹",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 1
                 },
                 new CakeType
@@ -300,7 +277,6 @@ namespace Cake.Domain.Migrations
                     Id = 9,
                     Name = "哥哥",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 1
                 },
                 new CakeType
@@ -308,7 +284,6 @@ namespace Cake.Domain.Migrations
                     Id = 10,
                     Name = "小孩",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 1
                 },
                 new CakeType
@@ -316,7 +291,6 @@ namespace Cake.Domain.Migrations
                     Id = 11,
                     Name = "父母",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 1
                 },
                 new CakeType
@@ -324,7 +298,6 @@ namespace Cake.Domain.Migrations
                     Id = 12,
                     Name = "巧克力",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 2
                 },
                 new CakeType
@@ -332,7 +305,6 @@ namespace Cake.Domain.Migrations
                     Id = 13,
                     Name = "混合水果",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 2
                 },
                 new CakeType
@@ -340,7 +312,6 @@ namespace Cake.Domain.Migrations
                     Id = 14,
                     Name = "奶油",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 2
                 },
                 new CakeType
@@ -348,7 +319,6 @@ namespace Cake.Domain.Migrations
                     Id = 15,
                     Name = "草莓",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 2
                 },
                 new CakeType
@@ -356,7 +326,6 @@ namespace Cake.Domain.Migrations
                     Id = 16,
                     Name = "香草",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 2
                 },
                 new CakeType
@@ -364,7 +333,6 @@ namespace Cake.Domain.Migrations
                     Id = 17,
                     Name = "无蛋糕",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 2
                 },
                 new CakeType
@@ -372,7 +340,6 @@ namespace Cake.Domain.Migrations
                     Id = 18,
                     Name = "心形",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 3
                 },
                 new CakeType
@@ -380,7 +347,6 @@ namespace Cake.Domain.Migrations
                     Id = 19,
                     Name = "卡通蛋糕",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 3
                 },
                 new CakeType
@@ -388,7 +354,6 @@ namespace Cake.Domain.Migrations
                     Id = 20,
                     Name = "2-3层蛋糕",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 3
                 },
                 new CakeType
@@ -396,7 +361,6 @@ namespace Cake.Domain.Migrations
                     Id = 21,
                     Name = "正方形",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 3
                 },
                 new CakeType
@@ -404,7 +368,6 @@ namespace Cake.Domain.Migrations
                     Id = 22,
                     Name = "圆形",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 3
                 },
                 new CakeType
@@ -412,7 +375,6 @@ namespace Cake.Domain.Migrations
                     Id = 23,
                     Name = "照片蛋糕",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 3
                 },
                 new CakeType
@@ -420,7 +382,6 @@ namespace Cake.Domain.Migrations
                     Id = 24,
                     Name = "1KG",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 4
                 },
                 new CakeType
@@ -428,87 +389,76 @@ namespace Cake.Domain.Migrations
                     Id = 25,
                     Name = "1.5KG",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
-                    ParentId = 4
-                },
-                new CakeType
-                {
-                    Id = 24,
-                    Name = "2KG",
-                    Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 4
                 },
                 new CakeType
                 {
                     Id = 26,
-                    Name = "3KG",
+                    Name = "2KG",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 4
                 },
                 new CakeType
                 {
                     Id = 27,
-                    Name = "4KG",
+                    Name = "3KG",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 4
                 },
                 new CakeType
                 {
                     Id = 28,
-                    Name = "更重",
+                    Name = "4KG",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 4
                 },
                 new CakeType
                 {
                     Id = 29,
-                    Name = "冰激凌蛋糕",
+                    Name = "更重",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
-                    ParentId = 5
+                    ParentId = 4
                 },
                 new CakeType
                 {
                     Id = 30,
-                    Name = "瑞士卷",
+                    Name = "冰激凌蛋糕",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 5
                 },
                 new CakeType
                 {
                     Id = 31,
-                    Name = "Ruske康培",
+                    Name = "瑞士卷",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 5
                 },
                 new CakeType
                 {
                     Id = 32,
-                    Name = "纸杯蛋糕",
+                    Name = "Ruske康培",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 5
                 },
                 new CakeType
                 {
                     Id = 33,
-                    Name = "松饼",
+                    Name = "纸杯蛋糕",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 5
                 },
                 new CakeType
                 {
                     Id = 34,
+                    Name = "松饼",
+                    Url = "/",
+                    ParentId = 5
+                },
+                new CakeType
+                {
+                    Id = 35,
                     Name = "Merveilleux",
                     Url = "/",
-                    CakeTypeEnum = CakeTypeEnum.Content,
                     ParentId = 5
                 });
 

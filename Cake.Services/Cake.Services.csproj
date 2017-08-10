@@ -57,6 +57,7 @@
     <Compile Include="BaseService.cs" />
     <Compile Include="Cake\CakeService.cs" />
     <Compile Include="Cake\ICakeService.cs" />
+    <Compile Include="EnumExtension.cs" />
     <Compile Include="IocFactory.cs" />
     <Compile Include="Link\IQuickLinkService.cs" />
     <Compile Include="Link\QuickLinkService.cs" />

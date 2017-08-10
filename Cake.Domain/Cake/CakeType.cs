@@ -25,9 +25,6 @@ namespace Cake.Domain.Cake
         /// </summary>
         public long ParentId { get; set; }
 
-        /// <summary>
-        ///     蛋糕类型枚举
-        /// </summary>
-        public CakeTypeEnum CakeTypeEnum { get; set; }
+        public Scenario Scenario { get; set; }
     }
 }

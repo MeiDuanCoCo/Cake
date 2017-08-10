@@ -53,7 +53,6 @@
     <Compile Include="Cake\Cake.cs" />
     <Compile Include="Cake\CakeCategory.cs" />
     <Compile Include="Cake\CakeType.cs" />
-    <Compile Include="Cake\CakeTypeEnum.cs" />
     <Compile Include="Cake\Scenario.cs" />
     <Compile Include="Link\QuickLink.cs" />
     <Compile Include="Link\QuickLinkItem.cs" />

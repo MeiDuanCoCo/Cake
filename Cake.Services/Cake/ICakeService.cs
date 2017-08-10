@@ -7,6 +7,6 @@ namespace Cake.Services.Cake
     public interface ICakeService
     {
         IQueryable<CakeDto> GetCakes(CakeQuery cakeQuery);
-        IList<ScenarioDto> GetScenarios();
+        IList<CakeTypeDto> GetScenarios();
     }
 }

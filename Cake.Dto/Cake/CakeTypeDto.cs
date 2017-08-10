@@ -13,6 +13,7 @@ namespace Cake.Dto.Cake
             Name = model.Name;
             Url = model.Url;
             ParentId = model.ParentId;
+            Scenario = model.Scenario;
         }
 
         public long Id { get; set; }
@@ -28,5 +29,7 @@ namespace Cake.Dto.Cake
         public string Url { get; set; }
 
         public long ParentId { get; set; }
+
+        public Scenario Scenario { get; set; }
     }
 }

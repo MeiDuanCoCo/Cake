@@ -44,7 +44,6 @@
     <Compile Include="Cake\CakeDto.cs" />
     <Compile Include="Cake\CakeQuery.cs" />
     <Compile Include="Cake\CakeTypeDto.cs" />
-    <Compile Include="Cake\ScenarioDto.cs" />
     <Compile Include="PageQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

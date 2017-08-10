@@ -28,14 +28,9 @@ namespace Cake.Services.Cake
             return cakeQuery.ToPageList(query.Select(o => new CakeDto(o)));
         }
 
-        public IList<ScenarioDto> GetScenarios()
+        public IList<CakeTypeDto> GetScenarios()
         {
-            var scenarios = _dbContext.Scenarios.AsEnumerable().Select(o => new ScenarioDto(o)).ToList();
-            foreach (var scenario in scenarios)
-            {
-                scenario.TypeDtos = _dbContext.CakeTypes.AsEnumerable()
-                    .Select(o => new CakeTypeDto(o)).ToList();
-            }
+            var scenarios = _dbContext.CakeTypes.AsEnumerable().Select(o => new CakeTypeDto(o)).ToList();
             return scenarios;
         }
     }

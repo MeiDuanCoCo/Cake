@@ -25,7 +25,6 @@ namespace Cake.Domain
         public virtual DbSet<QuickLinkItem> QuickLinkItems { get; set; }
         public virtual DbSet<CakeType> CakeTypes { get; set; }
         public virtual DbSet<Cake.Cake> Cakes { get; set; }
-        public virtual DbSet<Cake.Scenario> Scenarios { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

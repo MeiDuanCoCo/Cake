@@ -34,7 +34,16 @@
       <HintPath>..\packages\Autofac.4.6.1\lib\net45\Autofac.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,16 +54,27 @@
   <ItemGroup>
     <Compile Include="AutofacConfig.cs" />
     <Compile Include="AutofacFactory.cs" />
+    <Compile Include="BaseService.cs" />
+    <Compile Include="Cake\CakeService.cs" />
+    <Compile Include="Cake\ICakeService.cs" />
+    <Compile Include="EnumExtension.cs" />
     <Compile Include="IocFactory.cs" />
+    <Compile Include="Link\IQuickLinkService.cs" />
+    <Compile Include="Link\QuickLinkService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cake.Domain\Cake.Domain.csproj">
       <Project>{c14d87ad-a544-486d-bd10-826e5f9cfbdd}</Project>
       <Name>Cake.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cake.Dto\Cake.Dto.csproj">
+      <Project>{90b6abf9-a9d8-4ee8-b405-b9bfde3dc4a1}</Project>
+      <Name>Cake.Dto</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

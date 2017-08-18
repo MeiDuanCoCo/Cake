@@ -1,5 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using Cake.Domain.Cake;
+using Cake.Domain.Link;
 
 namespace Cake.Domain
 {
@@ -18,6 +20,11 @@ namespace Cake.Domain
         {
             Configuration.LazyLoadingEnabled = true;
         }
+
+        public virtual DbSet<QuickLink> QuickLinks { get; set; }
+        public virtual DbSet<QuickLinkItem> QuickLinkItems { get; set; }
+        public virtual DbSet<CakeType> CakeTypes { get; set; }
+        public virtual DbSet<Cake.Cake> Cakes { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

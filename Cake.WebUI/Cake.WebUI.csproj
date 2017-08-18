@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -169,7 +170,9 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="AutofacConfig.cs" />
+    <Compile Include="Controllers\CakeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TemplateController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -247,7 +250,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -268,6 +273,10 @@
       <Project>{c14d87ad-a544-486d-bd10-826e5f9cfbdd}</Project>
       <Name>Cake.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Cake.Dto\Cake.Dto.csproj">
+      <Project>{90b6abf9-a9d8-4ee8-b405-b9bfde3dc4a1}</Project>
+      <Name>Cake.Dto</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Cake.Services\Cake.Services.csproj">
       <Project>{22127f49-f6c5-4c31-9511-df4b780829d6}</Project>
       <Name>Cake.Services</Name>
@@ -280,6 +289,13 @@
     <Content Include="Content\fonts\Marvel-Regular.ttf" />
     <Content Include="Content\fonts\Roboto-Regular.ttf" />
     <None Include="Project_Readme.html" />
+    <Content Include="Views\Template\Footer.cshtml" />
+    <Content Include="Views\Template\Navbar.cshtml" />
+    <Content Include="Views\Template\Subscribe.cshtml" />
+    <Content Include="Views\Template\Gallery.cshtml" />
+    <Content Include="Views\Template\Banner.cshtml" />
+    <Content Include="Views\Template\Headerinfo.cshtml" />
+    <Content Include="Views\Cake\CakeList.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

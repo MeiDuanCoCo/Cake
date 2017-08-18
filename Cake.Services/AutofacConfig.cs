@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Cake.Services.Link;
 using SSO.Services;
 
 namespace Cake.Services
@@ -23,6 +24,8 @@ namespace Cake.Services
 
         protected virtual void SetupControls(ContainerBuilder builder)
         {
+            builder.RegisterType<QuickLinkService>().As<IQuickLinkService>();
+            builder.RegisterType<Cake.CakeService>().As<Cake.ICakeService>();
         }
 
         public virtual void Initialize(ContainerBuilder builder)

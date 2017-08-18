@@ -13,6 +13,7 @@ namespace Cake.Web.Controllers
         {
             return View();
         }
+        //现在去购物
         public ActionResult ShopStore()
         {
             return View();

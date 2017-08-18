@@ -35,3 +35,4 @@ E:\不忘初心\XllCake\src\Cake.Domain\bin\Debug\EntityFramework.xml
 E:\不忘初心\XllCake\src\Cake.Domain\bin\Debug\EntityFramework.SqlServer.xml
 E:\不忘初心\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.dll
 E:\不忘初心\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.pdb
+E:\不忘初心\XllCake\src\Cake.Domain\obj\Debug\Cake.Domain.csprojResolveAssemblyReference.cache
